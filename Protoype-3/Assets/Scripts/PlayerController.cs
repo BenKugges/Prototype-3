@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
        if (collision.gameObject.CompareTag("Ground"))
         {
             isOnGround = true;
-            Debug.Log("Game Over!")
+            Debug.Log("Game Over!");
         }
     }
 
